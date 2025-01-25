@@ -1,0 +1,5 @@
+tasks:
+  - name: Intalling dependencies for python
+    init: |
+      python -m pip install --upgrade pip
+      pip install nltk==3.5 numpy matplotlib
