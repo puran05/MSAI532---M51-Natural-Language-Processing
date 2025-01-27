@@ -60,4 +60,4 @@ sample_quote_pos_tags = nltk.pos_tag(word1)
 grammar = "NP: {<DT>?<JJ>*<NN>}"
 chunk_parse = nltk.RegexpParser(grammar)
 tree =chunk_parse.parse(sample_quote_pos_tags)
-tree.draw()
+# tree.draw()
